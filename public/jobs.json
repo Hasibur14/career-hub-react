@@ -1,7 +1,7 @@
 [
      {
       "id": 1,
-      "logo": "https://i.ibb.co/PzrbTxh/google-1-1-1.png",
+      "logo": "https://i.ibb.co/PzrbTxh/google-1--1.png",
       "job_title": "Technical Database Engineer",
       "company_name": "Google LLC",
       "remote_or_onsite": "Remote",
@@ -112,6 +112,65 @@
           "email": "info@gmail.com",
           "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
         }
-      }
+      },
+      {
+        "id": 7,
+        "logo": "https://i.ibb.co/PzrbTxh/google-1--1.png",
+        "job_title": "Senior Software Engineer",
+        "company_name": "Google LLC",
+        "remote_or_onsite": "Onsite",
+        "location": "Dhaka, Bangladesh",
+        "job_type": "Full Time",
+        "salary": "150k-200k",
+        "job_description": "A Senior Software Engineer is responsible for designing, developing, and maintaining software solutions. This includes writing code, debugging issues, and collaborating with cross-functional teams to deliver high-quality software products.",
+        "job_responsibility": "Designing and implementing software solutions: Senior Software Engineers lead the design and development of software applications, ensuring scalability, reliability, and performance. They also collaborate with other teams to gather requirements and integrate software components.",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field from a reputable university.",
+        "experiences": "5+ years of experience in software development.",
+        "contact_information": {
+            "phone": "01750-00 00 00",
+            "email": "info@gmail.com",
+            "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+        }
+    },
+    {
+        "id": 8,
+        "logo": "https://i.ibb.co/H4wJGhb/netflix-4-1.png",
+        "job_title": "UI/UX Designer",
+        "company_name": "Netflix",
+        "remote_or_onsite": "Onsite",
+        "location": "Dhaka, Bangladesh",
+        "job_type": "Full Time",
+        "salary": "80k-120k",
+        "job_description": "A UI/UX Designer is responsible for creating intuitive and visually appealing interfaces for software and web applications. They collaborate with cross-functional teams to understand user needs and design solutions that enhance user experience.",
+        "job_responsibility": "Conducting user research and usability testing: UI/UX Designers gather insights from user research and use this data to inform design decisions. They also conduct usability testing to ensure that the interface meets user expectations.",
+        "educational_requirements": "Bachelor's degree in Design, Human-Computer Interaction, or related field.",
+        "experiences": "2-5 years of experience in UI/UX design.",
+        "contact_information": {
+            "phone": "01750-00 00 00",
+            "email": "info@gmail.com",
+            "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+        }
+    },
+    {
+        "id": 9,
+        "logo": "https://i.ibb.co/JRXgX92/tesla-9-1.png",
+        "job_title": "Frontend Developer",
+        "company_name": "Tesla",
+        "remote_or_onsite": "Remote",
+        "location": "Dhaka, Bangladesh",
+        "job_type": "Full Time",
+        "salary": "120k-160k",
+        "job_description": "A Frontend Developer is responsible for implementing visual elements that users see and interact with in a web application. They collaborate with UI/UX designers and backend developers to create responsive and user-friendly interfaces.",
+        "job_responsibility": "Developing user-facing features: Frontend Developers write clean, maintainable code to implement user interfaces based on design mockups and specifications. They also optimize web applications for maximum speed and scalability.",
+        "educational_requirements": "Bachelor's degree in Computer Science, Information Technology, or related field.",
+        "experiences": "3-5 years of experience in frontend development.",
+        "contact_information": {
+            "phone": "01750-00 00 00",
+            "email": "info@gmail.com",
+            "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+        }
+    }
+
+      
   
   ]

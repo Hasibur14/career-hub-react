@@ -8,8 +8,8 @@ const Job = ({ job }) => {
     const {id, logo, job_title, company_name, remote_or_onsite, location, job_type, salary, job_description } = job;
 
     return (
-        <div>
-            <div className="card card-compact  bg-base-200 shadow-xl p-4">
+        <div className="">
+            <div className="card card-compact  bg-base-200 shadow-xl p-4 items-center justify-center space-y-5">
                 <figure><img className="w-32" src={logo} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{job_title}</h2>
