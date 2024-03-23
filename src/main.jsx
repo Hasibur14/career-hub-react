@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Blogs from './components/Blogs';
 import Home from './components/Home';
+import JobDetails from './components/JobDetails';
 import Jobs from './components/Jobs';
 import AppliedJobs from './components/Pages/AppliedJobs';
 import Root from './components/Root';
@@ -24,7 +25,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/applied',
-        element: <AppliedJobs></AppliedJobs>
+        element: <AppliedJobs></AppliedJobs>,
+        loader: () => fetch('/jobs.json')
       },
       {
         path: '/blogs',
@@ -37,7 +39,12 @@ const router = createBrowserRouter([
       {
         path: '/jobs',
         element: <Jobs></Jobs>
-      }
+      },
+      {
+        path:'/job/:id',
+        element:<JobDetails></JobDetails>,
+        loader: () => fetch('../jobs.json')
+      },
     ]
   },
 ]);
@@ -48,3 +55,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
+ 
